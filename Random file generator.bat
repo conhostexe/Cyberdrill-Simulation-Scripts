@@ -2,7 +2,7 @@
 :: Get the current directory
 set "current_dir=%cd%"
 :: Define folder name
-set "folder_name=Critical files"
+set "folder_name=Criticall files"
 :: Create the folder in the current directory
 if not exist "%current_dir%\%folder_name%" mkdir "%current_dir%\%folder_name%"
 :: Define number of files to create
