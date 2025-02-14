@@ -5,7 +5,7 @@ param (
     [switch]$NTLM,     # Extract NTLM hashes from SAM
     [switch]$LSA,      # Dump LSA secrets
     [switch]$Browsers,  # Extract saved passwords from browsers
-    [string]$OutputDir = "C:\Users\IR3\Downloads\key"  # Desired output location
+    [string]$OutputDir = "C:\Users\"  # Desired output location
 )
 
 # Check if running as Administrator
