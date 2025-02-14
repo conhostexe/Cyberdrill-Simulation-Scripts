@@ -1,4 +1,4 @@
-# (.\CredentialDump.ps1 -LSASS -NTLM -LSA -Browsers -OutputDir "C:\YourDesiredPath")
+# (.\PASSdumpSim.ps1 -LSASS -NTLM -LSA -Browsers -OutputDir "C:\YourDesiredPath")
 
 param (
     [switch]$LSASS,    # Dump credentials from LSASS memory
@@ -86,7 +86,7 @@ if ($Browsers) { Dump-Browsers }
 
 # Show usage if no parameters are given
 if (!$LSASS -and !$NTLM -and !$LSA -and !$Browsers) {
-    Write-Host "Usage: .\CredentialDump.ps1 -LSASS -NTLM -LSA -Browsers" -ForegroundColor Cyan
+    Write-Host "Usage: .\PASSdumpSim.ps1 -LSASS -NTLM -LSA -Browsers" -ForegroundColor Cyan
 }
 
 # Optionally, running all actions together in one command:
